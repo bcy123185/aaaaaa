@@ -26,5 +26,12 @@ namespace aaaaaa.Controllers
 
             return View();
         }
+
+        public ActionResult abc()
+        {
+            ViewBag.Message = "12345678";
+
+            return View();
+        }
     }
 }
